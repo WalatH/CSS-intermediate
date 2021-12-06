@@ -2,10 +2,20 @@
   background-color: #ccc;
   padding: 20px
 }
-
-.intro{
+.intro {
   color: red;
   font-weight: bold;
+  }
+a:active {
+  color:red;
+}
+a:hover {
+  text-decoration:none;
+  color: blue;
+  background-color: yellow;
+}
+input:focus, textarea:focus {
+background: #eee;
 }
 a:link {
   color: blue;
